@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
+import arti_ios
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    @StateObject private var reply = BackgroundCall()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var html = "Waiting for reply";
+    var body: some View {
+        Text("Testing TLS over Tor!")
+            .padding()
+        Text(reply.reply)
     }
 }
