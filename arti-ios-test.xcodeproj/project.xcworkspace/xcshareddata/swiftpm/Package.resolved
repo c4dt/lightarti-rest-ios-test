@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "arti-ios",
+        "repositoryURL": "https://github.com/c4dt/arti-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "8da9bc3ca7e4ecd01a5aad99938459e620dd5bf7",
+          "version": "0.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
