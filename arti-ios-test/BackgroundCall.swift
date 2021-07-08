@@ -21,7 +21,11 @@ class BackgroundCall: ObservableObject {
     func fetch_result(){
         DispatchQueue.main.async { [unowned self] in
             do {
-                let resp = try callArti(method: .GET, url: "https://www.c4dt.org/index.html");
+                // This directory needs to hold the `consensus.txt` and `microdescriptors.txt`
+                // files.
+                let dict_dir = Bundle.main.resourcePath! + "/directory";
+                let resp = try callArti(dict_dir: dict_dir,
+                    method: .GET, url: "https://www.c4dt.org/index.html");
                 if let str = String(data: resp.body, encoding: .utf8){
                     self.reply = str;
                 } else {
