@@ -12,3 +12,14 @@ For more information, see
   FFI
 * [arti-ios](https://github.com/c4dt/arti-ios) - for the iOS library
 * [arti-android](https://github.com/c4dt/arti-android) - for the Android library
+
+## Updating the tor-directory cache
+
+This version uses a cached version of the tor-directory.
+It is available in the [arti-directory](https://github.com/c4dt/arti-directory) repository and
+updated once a day.
+To copy the latest files to the test app, you can simply run make:
+
+```bash
+make
+```
