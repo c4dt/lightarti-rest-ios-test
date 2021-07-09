@@ -23,3 +23,5 @@ To copy the latest files to the test app, you can simply run make:
 ```bash
 make
 ```
+
+If the files are older than 1 day, it will download newer files.
