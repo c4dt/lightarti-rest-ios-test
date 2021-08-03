@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9E1A0C5126653075007A08D9 /* BackgroundCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A0C5026653075007A08D9 /* BackgroundCall.swift */; };
+		9E2DC8ED26B913AE00D8283C /* arti-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 9E2DC8EC26B913AE00D8283C /* arti-ios */; };
+		9E2DC8EF26B913AE00D8283C /* arti-rest in Frameworks */ = {isa = PBXBuildFile; productRef = 9E2DC8EE26B913AE00D8283C /* arti-rest */; };
 		9E82ADD02689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
 		9E82ADD12689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
 		9E82ADD22689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
@@ -17,8 +19,6 @@
 		9EB5A9FF2664B3C700225D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5A9FE2664B3C700225D73 /* Preview Assets.xcassets */; };
 		9EB5AA0A2664B3C700225D73 /* arti_ios_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5AA092664B3C700225D73 /* arti_ios_testTests.swift */; };
 		9EB5AA152664B3C700225D73 /* arti_ios_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5AA142664B3C700225D73 /* arti_ios_testUITests.swift */; };
-		9EB630BC269701220045352A /* arti-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 9EB630BB269701220045352A /* arti-ios */; };
-		9EB630BE269701220045352A /* arti-rest in Frameworks */ = {isa = PBXBuildFile; productRef = 9EB630BD269701220045352A /* arti-rest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EB630BE269701220045352A /* arti-rest in Frameworks */,
-				9EB630BC269701220045352A /* arti-ios in Frameworks */,
+				9E2DC8EF26B913AE00D8283C /* arti-rest in Frameworks */,
+				9E2DC8ED26B913AE00D8283C /* arti-ios in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +167,8 @@
 			);
 			name = "arti-ios-test";
 			packageProductDependencies = (
-				9EB630BB269701220045352A /* arti-ios */,
-				9EB630BD269701220045352A /* arti-rest */,
+				9E2DC8EC26B913AE00D8283C /* arti-ios */,
+				9E2DC8EE26B913AE00D8283C /* arti-rest */,
 			);
 			productName = "arti-ios-test";
 			productReference = 9EB5A9F42664B3C600225D73 /* arti-ios-test.app */;
@@ -242,7 +242,7 @@
 			);
 			mainGroup = 9EB5A9EB2664B3C600225D73;
 			packageReferences = (
-				9EB630BA269701220045352A /* XCRemoteSwiftPackageReference "arti-ios" */,
+				9E2DC8E726B9137900D8283C /* XCRemoteSwiftPackageReference "arti-ios" */,
 			);
 			productRefGroup = 9EB5A9F52664B3C600225D73 /* Products */;
 			projectDirPath = "";
@@ -613,25 +613,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9EB630BA269701220045352A /* XCRemoteSwiftPackageReference "arti-ios" */ = {
+		9E2DC8E726B9137900D8283C /* XCRemoteSwiftPackageReference "arti-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/c4dt/arti-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.1;
+				minimumVersion = 0.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9EB630BB269701220045352A /* arti-ios */ = {
+		9E2DC8EC26B913AE00D8283C /* arti-ios */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9EB630BA269701220045352A /* XCRemoteSwiftPackageReference "arti-ios" */;
+			package = 9E2DC8E726B9137900D8283C /* XCRemoteSwiftPackageReference "arti-ios" */;
 			productName = "arti-ios";
 		};
-		9EB630BD269701220045352A /* arti-rest */ = {
+		9E2DC8EE26B913AE00D8283C /* arti-rest */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9EB630BA269701220045352A /* XCRemoteSwiftPackageReference "arti-ios" */;
+			package = 9E2DC8E726B9137900D8283C /* XCRemoteSwiftPackageReference "arti-ios" */;
 			productName = "arti-rest";
 		};
 /* End XCSwiftPackageProductDependency section */
