@@ -8,10 +8,10 @@ There is an attempt at running the synchronous call in the background here:
 
 For more information, see
 
-* [arti-rest](https://github.com/c4dt/arti-rest) - for the underlying glue code to call into arti from
+- [arti-rest](https://github.com/c4dt/arti-rest) - for the underlying glue code to call into arti from
   FFI
-* [arti-ios](https://github.com/c4dt/arti-ios) - for the iOS library
-* [arti-android](https://github.com/c4dt/arti-android) - for the Android library
+- [arti-ios](https://github.com/c4dt/arti-ios) - for the iOS library
+- [arti-android](https://github.com/c4dt/arti-android) - for the Android library
 
 ## Updating the tor-directory cache
 
@@ -25,3 +25,17 @@ make
 ```
 
 If the files are older than 1 day, it will download newer files.
+
+# Contributors
+
+`lightarti-rest-ios-test` is maintained by the [Center for Digital Trust](https://c4dt.org/). The following people contributed to the implementation of `lightarti-rest`:
+
+- Linus Gasser, C4DT
+- Valérian Rousset, C4DT
+- Christian Grigis, C4DT
+- Laurent Girod, SPRING Lab, EPFL
+
+Analysis and design by:
+
+- Wouter Lueks, SPRING Lab, EPFL
+- Carmela Troncoso, SPRING Lab, EPFL
