@@ -1,6 +1,6 @@
 //
 //  arti_ios_testApp.swift
-//  arti-ios-test
+//  lightarti-rest-ios-test
 //
 //  Created by Linus Gasser on 31.05.21.
 //

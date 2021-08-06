@@ -1,12 +1,12 @@
 //
 //  ContentView.swift
-//  arti-ios-test
+//  lightarti-rest-ios-test
 //
 //  Created by Linus Gasser on 31.05.21.
 //
 
 import SwiftUI
-import arti_ios
+import lightarti_rest_ios
 
 struct ContentView: View {
     @StateObject private var reply = BackgroundCall()

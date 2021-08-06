@@ -1,12 +1,12 @@
 //
 //  BackgroundCall.swift
-//  arti-ios-test
+//  lightarti-rest-ios-test
 //
 //  Created by Linus Gasser on 31.05.21.
 //
 
 import Foundation
-import arti_ios
+import lightarti_rest_ios
 
 class BackgroundCall: ObservableObject {
     @Published var reply: String

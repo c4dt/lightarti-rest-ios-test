@@ -1,6 +1,6 @@
 //
 //  arti_ios_testTests.swift
-//  arti-ios-testTests
+//  lightarti-rest-ios-testTests
 //
 //  Created by Linus Gasser on 31.05.21.
 //
