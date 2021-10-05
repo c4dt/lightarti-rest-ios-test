@@ -26,6 +26,10 @@ make
 
 If the files are older than 1 day, it will download newer files.
 
+# License
+
+The code is licensed under the MIT license.
+
 # Contributors
 
 `lightarti-rest-ios-test` is maintained by the [Center for Digital Trust](https://c4dt.org/). The following people contributed to the implementation of `lightarti-rest`:
