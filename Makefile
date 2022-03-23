@@ -1,14 +1,11 @@
-.PHONY: directory.update
+DIRCACHE_URL := https://github.com/c4dt/lightarti-directory/releases/latest/download/directory-cache.tgz
 
-all: directory
-	@find directory/consensus.txt -mmin +1440 -exec make clean all \;
-
+.PHONY: directory
 directory:
-	mkdir directory
-	export URL=$$( curl --silent "https://api.github.com/repos/c4dt/lightarti-directory/releases/latest" | \
-		jq -r '.assets[0].browser_download_url' ); \
-	wget -q -O- $$URL | tar -C directory -xz
+	mkdir -p directory
+	curl --location '$(DIRCACHE_URL)' | \
+		tar -C directory -xz
 
+.PHONY: clean
 clean:
 	rm -rf directory
-
