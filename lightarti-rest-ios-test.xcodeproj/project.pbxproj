@@ -8,35 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9E1A0C5126653075007A08D9 /* BackgroundCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A0C5026653075007A08D9 /* BackgroundCall.swift */; };
-		9E1EB5B126BDA5B200450DB4 /* lightarti-rest in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1EB5B026BDA5B200450DB4 /* lightarti-rest */; };
 		9E1EB5B326BDA5B200450DB4 /* lightarti-rest-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1EB5B226BDA5B200450DB4 /* lightarti-rest-ios */; };
 		9E82ADD02689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
-		9E82ADD12689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
-		9E82ADD22689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
 		9EB5A9F82664B3C600225D73 /* arti_ios_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5A9F72664B3C600225D73 /* arti_ios_testApp.swift */; };
 		9EB5A9FA2664B3C600225D73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5A9F92664B3C600225D73 /* ContentView.swift */; };
 		9EB5A9FC2664B3C700225D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5A9FB2664B3C700225D73 /* Assets.xcassets */; };
 		9EB5A9FF2664B3C700225D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5A9FE2664B3C700225D73 /* Preview Assets.xcassets */; };
-		9EB5AA0A2664B3C700225D73 /* arti_ios_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5AA092664B3C700225D73 /* arti_ios_testTests.swift */; };
-		9EB5AA152664B3C700225D73 /* arti_ios_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5AA142664B3C700225D73 /* arti_ios_testUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9EB5AA062664B3C700225D73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EB5A9EC2664B3C600225D73 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9EB5A9F32664B3C600225D73;
-			remoteInfo = "lightarti-rest-ios-test";
-		};
-		9EB5AA112664B3C700225D73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9EB5A9EC2664B3C600225D73 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9EB5A9F32664B3C600225D73;
-			remoteInfo = "lightarti-rest-ios-test";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9E1A0C5026653075007A08D9 /* BackgroundCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCall.swift; sourceTree = "<group>"; };
@@ -47,10 +25,8 @@
 		9EB5A9FB2664B3C700225D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EB5A9FE2664B3C700225D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EB5AA002664B3C700225D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EB5AA052664B3C700225D73 /* lightarti-rest-ios-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lightarti-rest-ios-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB5AA092664B3C700225D73 /* arti_ios_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arti_ios_testTests.swift; sourceTree = "<group>"; };
 		9EB5AA0B2664B3C700225D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EB5AA102664B3C700225D73 /* lightarti-rest-ios-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lightarti-rest-ios-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB5AA142664B3C700225D73 /* arti_ios_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arti_ios_testUITests.swift; sourceTree = "<group>"; };
 		9EB5AA162664B3C700225D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,22 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E1EB5B126BDA5B200450DB4 /* lightarti-rest in Frameworks */,
 				9E1EB5B326BDA5B200450DB4 /* lightarti-rest-ios in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EB5AA022664B3C700225D73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EB5AA0D2664B3C700225D73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				9EB5A9F42664B3C600225D73 /* lightarti-rest-ios-test.app */,
-				9EB5AA052664B3C700225D73 /* lightarti-rest-ios-testTests.xctest */,
-				9EB5AA102664B3C700225D73 /* lightarti-rest-ios-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,48 +126,11 @@
 			);
 			name = "lightarti-rest-ios-test";
 			packageProductDependencies = (
-				9E1EB5B026BDA5B200450DB4 /* lightarti-rest */,
 				9E1EB5B226BDA5B200450DB4 /* lightarti-rest-ios */,
 			);
 			productName = "lightarti-rest-ios-test";
 			productReference = 9EB5A9F42664B3C600225D73 /* lightarti-rest-ios-test.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9EB5AA042664B3C700225D73 /* lightarti-rest-ios-testTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EB5AA1C2664B3C700225D73 /* Build configuration list for PBXNativeTarget "lightarti-rest-ios-testTests" */;
-			buildPhases = (
-				9EB5AA012664B3C700225D73 /* Sources */,
-				9EB5AA022664B3C700225D73 /* Frameworks */,
-				9EB5AA032664B3C700225D73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EB5AA072664B3C700225D73 /* PBXTargetDependency */,
-			);
-			name = "lightarti-rest-ios-testTests";
-			productName = "lightarti-rest-ios-testTests";
-			productReference = 9EB5AA052664B3C700225D73 /* lightarti-rest-ios-testTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9EB5AA0F2664B3C700225D73 /* lightarti-rest-ios-testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9EB5AA1F2664B3C700225D73 /* Build configuration list for PBXNativeTarget "lightarti-rest-ios-testUITests" */;
-			buildPhases = (
-				9EB5AA0C2664B3C700225D73 /* Sources */,
-				9EB5AA0D2664B3C700225D73 /* Frameworks */,
-				9EB5AA0E2664B3C700225D73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9EB5AA122664B3C700225D73 /* PBXTargetDependency */,
-			);
-			name = "lightarti-rest-ios-testUITests";
-			productName = "lightarti-rest-ios-testUITests";
-			productReference = 9EB5AA102664B3C700225D73 /* lightarti-rest-ios-testUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,14 +143,6 @@
 				TargetAttributes = {
 					9EB5A9F32664B3C600225D73 = {
 						CreatedOnToolsVersion = 12.5;
-					};
-					9EB5AA042664B3C700225D73 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 9EB5A9F32664B3C600225D73;
-					};
-					9EB5AA0F2664B3C700225D73 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 9EB5A9F32664B3C600225D73;
 					};
 				};
 			};
@@ -249,8 +163,6 @@
 			projectRoot = "";
 			targets = (
 				9EB5A9F32664B3C600225D73 /* lightarti-rest-ios-test */,
-				9EB5AA042664B3C700225D73 /* lightarti-rest-ios-testTests */,
-				9EB5AA0F2664B3C700225D73 /* lightarti-rest-ios-testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,22 +175,6 @@
 				9EB5A9FF2664B3C700225D73 /* Preview Assets.xcassets in Resources */,
 				9E82ADD02689CF8A00F5ED85 /* directory in Resources */,
 				9EB5A9FC2664B3C700225D73 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EB5AA032664B3C700225D73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E82ADD12689CF8A00F5ED85 /* directory in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EB5AA0E2664B3C700225D73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E82ADD22689CF8A00F5ED85 /* directory in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,36 +191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EB5AA012664B3C700225D73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EB5AA0A2664B3C700225D73 /* arti_ios_testTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9EB5AA0C2664B3C700225D73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EB5AA152664B3C700225D73 /* arti_ios_testUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9EB5AA072664B3C700225D73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EB5A9F32664B3C600225D73 /* lightarti-rest-ios-test */;
-			targetProxy = 9EB5AA062664B3C700225D73 /* PBXContainerItemProxy */;
-		};
-		9EB5AA122664B3C700225D73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EB5A9F32664B3C600225D73 /* lightarti-rest-ios-test */;
-			targetProxy = 9EB5AA112664B3C700225D73 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9EB5AA172664B3C700225D73 /* Debug */ = {
@@ -487,90 +354,6 @@
 			};
 			name = Release;
 		};
-		9EB5AA1D2664B3C700225D73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8A6UP2TFJ;
-				INFOPLIST_FILE = "lightarti-rest-ios-testTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.epfl.lightarti-rest-ios-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightarti-rest-ios-test.app/lightarti-rest-ios-test";
-			};
-			name = Debug;
-		};
-		9EB5AA1E2664B3C700225D73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8A6UP2TFJ;
-				INFOPLIST_FILE = "lightarti-rest-ios-testTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.epfl.lightarti-rest-ios-testTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightarti-rest-ios-test.app/lightarti-rest-ios-test";
-			};
-			name = Release;
-		};
-		9EB5AA202664B3C700225D73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8A6UP2TFJ;
-				INFOPLIST_FILE = "lightarti-rest-ios-testUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.epfl.lightarti-rest-ios-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "lightarti-rest-ios-test";
-			};
-			name = Debug;
-		};
-		9EB5AA212664B3C700225D73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8A6UP2TFJ;
-				INFOPLIST_FILE = "lightarti-rest-ios-testUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ch.epfl.lightarti-rest-ios-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "lightarti-rest-ios-test";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -592,24 +375,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EB5AA1C2664B3C700225D73 /* Build configuration list for PBXNativeTarget "lightarti-rest-ios-testTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EB5AA1D2664B3C700225D73 /* Debug */,
-				9EB5AA1E2664B3C700225D73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9EB5AA1F2664B3C700225D73 /* Build configuration list for PBXNativeTarget "lightarti-rest-ios-testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EB5AA202664B3C700225D73 /* Debug */,
-				9EB5AA212664B3C700225D73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -618,17 +383,12 @@
 			repositoryURL = "https://github.com/c4dt/lightarti-rest-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.3.3;
+				minimumVersion = 0.4.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9E1EB5B026BDA5B200450DB4 /* lightarti-rest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9E1EB5AF26BDA5B200450DB4 /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */;
-			productName = "lightarti-rest";
-		};
 		9E1EB5B226BDA5B200450DB4 /* lightarti-rest-ios */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9E1EB5AF26BDA5B200450DB4 /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */;
