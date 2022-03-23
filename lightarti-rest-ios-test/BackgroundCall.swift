@@ -8,32 +8,29 @@
 import Foundation
 import lightarti_rest_ios
 
+
 class BackgroundCall: ObservableObject {
     @Published var reply: String
-    
+
     init(){
+        initLogger();
+
         self.reply = "Waiting for reply"
         Thread.detachNewThread {
             self.fetch_result()
         }
     }
-    
+
     func fetch_result(){
         DispatchQueue.main.async { [unowned self] in
             do {
-                // This directory needs to hold the `consensus.txt` and `microdescriptors.txt`
-                // files.
-                let dict_dir = Bundle.main.resourcePath! + "/directory";
-                let resp = try callArti(dict_dir: dict_dir,
-                    method: .GET, url: "https://www.c4dt.org/index.html");
-                if let str = String(data: resp.body, encoding: .utf8){
-                    self.reply = str;
-                } else {
-                    self.reply = "Couldn't decode answer";
-                }
+                let response = try Client
+                    .init(dict_dir: Bundle.main.resourcePath! + "/directory")
+                    .send(request: .init(url: URL.init(string: "https://example.com/")!));
+
+                reply = "\(response.status): \(response.body)";
             } catch {
-                print("Error info: \(error)")
-                self.reply = "Error while fetching response\n" + error.localizedDescription;
+                reply = "Error while fetching response: \(error)\n";
             }
         }
     }
