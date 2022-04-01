@@ -1,3 +1,7 @@
 lightarti-rest-ios
 lightarti-rest.xcframework/
 directory
+
+# xcode
+xcuserdata/
+swiftpm/
