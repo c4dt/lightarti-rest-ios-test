@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1A0C5126653075007A08D9 /* BackgroundCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A0C5026653075007A08D9 /* BackgroundCall.swift */; };
-		9E588119291E64BF00B0DDAB /* lightarti-rest-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 9E588118291E64BF00B0DDAB /* lightarti-rest-ios */; };
+		9E4370AD2922B73300201861 /* lightarti-rest-ios in Frameworks */ = {isa = PBXBuildFile; productRef = 9E4370AC2922B73300201861 /* lightarti-rest-ios */; };
 		9E82ADD02689CF8A00F5ED85 /* directory in Resources */ = {isa = PBXBuildFile; fileRef = 9E82ADCF2689CF8900F5ED85 /* directory */; };
 		9EB5A9F82664B3C600225D73 /* arti_ios_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5A9F72664B3C600225D73 /* arti_ios_testApp.swift */; };
 		9EB5A9FA2664B3C600225D73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB5A9F92664B3C600225D73 /* ContentView.swift */; };
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E588119291E64BF00B0DDAB /* lightarti-rest-ios in Frameworks */,
+				9E4370AD2922B73300201861 /* lightarti-rest-ios in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			);
 			name = "lightarti-rest-ios-test";
 			packageProductDependencies = (
-				9E588118291E64BF00B0DDAB /* lightarti-rest-ios */,
+				9E4370AC2922B73300201861 /* lightarti-rest-ios */,
 			);
 			productName = "lightarti-rest-ios-test";
 			productReference = 9EB5A9F42664B3C600225D73 /* lightarti-rest-ios-test.app */;
@@ -164,7 +164,7 @@
 			);
 			mainGroup = 9EB5A9EB2664B3C600225D73;
 			packageReferences = (
-				9E588117291E64BF00B0DDAB /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */,
+				9E4370AB2922B73300201861 /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */,
 			);
 			productRefGroup = 9EB5A9F52664B3C600225D73 /* Products */;
 			projectDirPath = "";
@@ -324,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"lightarti-rest-ios-test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = J8A6UP2TFJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "lightarti-rest-ios-test/Info.plist";
@@ -346,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"lightarti-rest-ios-test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = J8A6UP2TFJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "lightarti-rest-ios-test/Info.plist";
@@ -386,7 +386,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9E588117291E64BF00B0DDAB /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */ = {
+		9E4370AB2922B73300201861 /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/c4dt/lightarti-rest-ios";
 			requirement = {
@@ -397,9 +397,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9E588118291E64BF00B0DDAB /* lightarti-rest-ios */ = {
+		9E4370AC2922B73300201861 /* lightarti-rest-ios */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9E588117291E64BF00B0DDAB /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */;
+			package = 9E4370AB2922B73300201861 /* XCRemoteSwiftPackageReference "lightarti-rest-ios" */;
 			productName = "lightarti-rest-ios";
 		};
 /* End XCSwiftPackageProductDependency section */
